@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "title": "Web Development", 
+        "img": "https://qph.cf2.quoracdn.net/main-qimg-1cbc1e565859b18d871d928f9d945735-pjlq",
+        "description": "To become a Web Developer, you should have an understanding of HTML, CSS, and JavaScript. It's also recommended to learn about CSS and CSS frameworks. Developing these fundamental web development skills will give you the foundation and logic for communicating with programming languages."
+    },
+    {
+        "id": 2,
+        "title": "Data Science", 
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkgqm3u_uEXf-_LJADXuf_syQj8-z6INSJElJha-p3_DvkLNxQWBS5RWWbUnJi-EA_v0Q&usqp=CAU",
+        "description": "You need to have knowledge of various programming languages, such as Python, Perl, C/C++, SQL, and Java, with Python being the most common coding language required in data science roles. These programming languages help data scientists organize unstructured data sets."
+    },
+    {
+        "id": 3,
+        "title": "App Development", 
+        "img": "https://www.joomdev.com/wp-content/uploads/2022/03/Cover_Page-%E2%80%93-3.png",
+        "description": "Most apps would need a database, so if you’re going to be building your own app by yourself (ergo the front and back end), you’ll likely have to know a database query language (usually SQL). Unless you’re building something that does not need to interact with a database like  Flappy Bird, for example.", 
+        "skills": [
+        "Ruby", 
+        "Python",
+        "PHP",
+        "Java",
+        "Go",
+        "C#"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Machine Learning", 
+        "img": "https://daxg39y63pxwu.cloudfront.net/images/Why+you+should+learn+machine+learning%3F/Learn+Machine+Learning.png",
+        "description": "Machine Learning is undoubtedly the most in-demand technology of the era! If you’re a beginner who’s getting started with Machine Learning, it’s important you know the prerequisites for Machine Learning. This blog will help you understand the different concepts that you need to know before you get started with Machine Learning. To get in-depth knowledge of Machine Learning,"
+    },
+    {
+        "id": 5,
+        "title": "Digital Marketing", 
+        "img": "https://www.investopedia.com/thmb/jxswkD8gOGodGUKM4DYyUNSiXLQ=/735x0/TermDefinitions_DigitalMarketing_finalv1-e0b5b14e22e541699ba9d00b07b8a7e8.png",
+        "description": "To become a Web Developer, you should have an understanding of HTML, CSS, and JavaScript. It's also recommended to learn about CSS and CSS frameworks. Developing these fundamental web development skills will give you the foundation and logic for communicating with programming languages."
+    },
+    {
+        "id": 6,
+        "title": "Graphics Design",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI96-3oRqaEoBMYD8Kob4vldS6F23MS-EYAP09nt4ZvazDWC1gbsNVZ20M9_qHSa8R0dY&usqp=CAU",
+        "description": "Most graphic design courses will cover topics such as color theory, typography, layout, and graphic design tools and software. Depending on the depth, some courses will also teach you about graphic design history, user experience(UX), and website design principles."
+    }
+]
