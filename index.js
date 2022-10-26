@@ -6,6 +6,7 @@ const app = express();
 app.use(cors());
 
 const courses = require("./data/courses.json");
+const blogs = require("./data/blog.json");
 
 app.get("/", (req, res) => {
   res.send("The Server is Upcoming...");
@@ -19,6 +20,20 @@ app.get("/course/:id", (req, res) => {
   const id = req.params.id;
   const selectedCourse = courses.find((c) => c.id == id);
   res.send(selectedCourse);
+});
+
+app.get("/blogs", (req, res) => {
+  res.send(blogs);
+});
+
+app.get("/blog/:id", (req, res) => {
+  const id = req.params.id;
+  if (id == "8") {
+    res.send("Sorry, Didn't find blog you want.");
+  } else {
+    const selectedBlog = blogs.find((b) => b.id == id);
+    res.send(selectedBlog);
+  }
 });
 
 app.listen(port, () => {
