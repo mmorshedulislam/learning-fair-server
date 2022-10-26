@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1, 
+        "question": "What is the prerequisite of the course?", 
+        "answer": "Should know the basics of computer."
+    },
+    {
+        "id": 2, 
+        "question": "Is the course money refundable?", 
+        "answer": "No. but Course fees are negotiable. However, various factors will be considered."
+    },
+    {
+        "id": 3, 
+        "question": "For whom is the course?", 
+        "answer": "The first thing that is required for doing the course is dedicated time. And strong will power that with will power everything can be done."
+    },
+    {
+        "id": 4, 
+        "question": "Can I do freelancing after the courses?", 
+        "answer": "The first thing to aim for is to finish learning. If you are a skilled person, you will find value anywhere. That is local or international market or freelancing."
+    },
+    {
+        "id": 5, 
+        "question": "Why the courses are not free?", 
+        "answer": "This course is not free because each of the teachers who conduct this course have a fixed cost. And that's why we can't offer this course for free."
+    }
+]

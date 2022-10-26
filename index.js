@@ -7,6 +7,7 @@ app.use(cors());
 
 const courses = require("./data/courses.json");
 const blogs = require("./data/blog.json");
+const faq = require("./data/faq.json");
 
 app.get("/", (req, res) => {
   res.send("The Server is Upcoming...");
@@ -34,6 +35,10 @@ app.get("/blog/:id", (req, res) => {
     const selectedBlog = blogs.find((b) => b.id == id);
     res.send(selectedBlog);
   }
+});
+
+app.get("/faq", (req, res) => {
+  res.send(faq);
 });
 
 app.listen(port, () => {
