@@ -1,11 +1,45 @@
 [
-    {"id": 1, "title": "What is CORS?", "img": "https://miro.medium.com/max/1200/1*fFOeYqrSmQc5WCVqBazQKw.jpeg", "description": "Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources. CORS also relies on a mechanism by which browsers make a 'preflight' request to the server hosting the cross-origin resource, in order to check that the server will permit the actual request. In that preflight, the browser sends headers that indicate the HTTP method and headers that will be used in the actual request."},
+  {
+    "id": 1,
+    "title": "What is CORS?",
+    "img": "https://miro.medium.com/max/1200/1*fFOeYqrSmQc5WCVqBazQKw.jpeg",
+    "description": "Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources. CORS also relies on a mechanism by which browsers make a 'preflight' request to the server hosting the cross-origin resource, in order to check that the server will permit the actual request. In that preflight, the browser sends headers that indicate the HTTP method and headers that will be used in the actual request."
+  },
 
-    {"id": 2, "title": "Why are you using firebase?", "img": "https://www.tristatetechnology.com/tristate-website/blog/wp-content/uploads/2019/06/firebase11.jpg", "description": "Firebase helps you develop high-quality apps, grow your user base, and earn more money. Each feature works independently, and they work even better together. Firebase provides detailed documentation and cross-platform SDKs to help you build and ship apps on Android, iOS, the web, C++, and Unity."},
+  {
+    "id": 2,
+    "title": "Why are you using firebase?",
+    "img": "https://www.tristatetechnology.com/tristate-website/blog/wp-content/uploads/2019/06/firebase11.jpg",
+    "description": "Firebase helps you develop high-quality apps, grow your user base, and earn more money. Each feature works independently, and they work even better together. Firebase provides detailed documentation and cross-platform SDKs to help you build and ship apps on Android, iOS, the web, C++, and Unity."
+  },
 
-    {"id": 3, "title": "What other options do you have to implement authentication?", "img": "https://www.iproov.com/wp-content/uploads/2021/09/best-authentication-methods-v3-ai-1.png", "description": "Some most popular User Authentication Platforms [Auth0, Firebase Alternatives]", "options": ["STYTCH","Ory","STYTCH","Supabase","Okta","PingIdentity","Keycloak"]}, 
+  {
+    "id": 3,
+    "title": "How does the private route works?",
+    "img": "https://res.cloudinary.com/practicaldev/image/fetch/s---L3EBQuW--/c_imagga_scale,f_auto,fl_progressive,h_1080,q_auto,w_1080/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0p49gt9l9s5wgnpjr0m2.PNG",
+    "description": "The react private route component renders child components (children) if the user is logged in. If not logged in the user is redirected to the /login page with the return url passed in the location state property. The current logged in user (authUser) is retrieved from Redux state with a call to the useSelector() hook. Redux is used in this example however it is not required to implement a Private Route component in React Router 6. You could use a different state management library or any approach you prefer to get the logged in status of the user."
+  },
 
-    {"id": 4, "title": "How does the private route works?", "img": "https://res.cloudinary.com/practicaldev/image/fetch/s---L3EBQuW--/c_imagga_scale,f_auto,fl_progressive,h_1080,q_auto,w_1080/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0p49gt9l9s5wgnpjr0m2.PNG", "description": "The react private route component renders child components (children) if the user is logged in. If not logged in the user is redirected to the /login page with the return url passed in the location state property. The current logged in user (authUser) is retrieved from Redux state with a call to the useSelector() hook. Redux is used in this example however it is not required to implement a Private Route component in React Router 6. You could use a different state management library or any approach you prefer to get the logged in status of the user."},
+  {
+    "id": 4,
+    "title": "What is node? How does node work?",
+    "img": "https://miro.medium.com/max/632/1*xsQYYYvG-07C3lAYcTvuRA.png",
+    "description": "It is a used as backend service where javascript works on the server-side of the application. This way javascript is used on both frontend and backend. Node. js runs on chrome v8 engine which converts javascript code into machine code, it is highly scalable, lightweight, fast, and data-intensive."
+  },
 
-    {"id": 5, "title": "What is node? How does node work?", "img": "https://miro.medium.com/max/632/1*xsQYYYvG-07C3lAYcTvuRA.png", "description": "It is a used as backend service where javascript works on the server-side of the application. This way javascript is used on both frontend and backend. Node. js runs on chrome v8 engine which converts javascript code into machine code, it is highly scalable, lightweight, fast, and data-intensive."}
+  {
+    "id": 5,
+    "title": "What other options do you have to implement authentication?",
+    "img": "https://www.iproov.com/wp-content/uploads/2021/09/best-authentication-methods-v3-ai-1.png",
+    "description": "Some most popular User Authentication Platforms [Auth0, Firebase Alternatives]",
+    "options": [
+      "STYTCH",
+      "Ory",
+      "STYTCH",
+      "Supabase",
+      "Okta",
+      "PingIdentity",
+      "Keycloak"
+    ]
+  }
 ]
